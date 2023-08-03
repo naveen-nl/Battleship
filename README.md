@@ -46,12 +46,12 @@ To build and run the Battleship API application, follow these steps:
 1. Make sure you have Java 11 or later installed on your system.
 2. Clone the repository to your local machine.
 3. Navigate to the project directory.
-4. Build the application using the following command:
+4. Build the application using the following command  :
            mvnw clean install
-5. Run the application using the following command:
+5. Run the application using the following command    :
            mvnw spring-boot:run
 6. The application will be accessible at [http://localhost:8080](http://localhost:8080).
-7. Run the following command to execute unit tests 
+7. Run the following command to execute unit tests    :
            mvnw test
-8. Run the following command to generate JaCoCo report 
+8. Run the following command to generate JaCoCo report :
            mvnw jacoco:report
