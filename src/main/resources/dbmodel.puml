@@ -1,0 +1,85 @@
+@startuml
+class Game {
+	- gameId: UUID
+	- player1: GamePlayer
+	- player2: GamePlayer
+	- currentPlayer: GamePlayer
+	- winner: GamePlayer
+	- gameStatus: GameStatus
+	- gameCreationDate: Date
+}
+
+class GamePlayer {
+	- gamePlayerId: Long
+	- player: Player
+	- gameShips: List<GameShip>
+	- gameBoard: List<GameGrid>
+}
+
+class GameGrid {
+	- gameGridId: Long
+	- rowIndex: int
+	- columnIndex: int
+	- gridValue: GridValue
+	- gamePlayer: GamePlayer
+	- gameShip: GameShip
+}
+
+class GameShip {
+	- gameShipId: Long
+	- ship: Ship
+	- gameShipGrids: List<GameGrid>
+	- shipStatus: ShipStatus
+	- gamePlayer: GamePlayer
+}
+
+class Player {
+	- playerId: Long
+	- playerName: String
+	- isLocked: Boolean
+	- isPlaying: Boolean
+	- gamePlayers: List<GamePlayer>
+}
+
+class Ship {
+	- shipId: Long
+	- shipName: String
+	- shipLength: int
+}
+
+enum GameStatus {
+	ONGOING
+	COMPLETED
+}
+
+enum GridValue  {
+	ATTACKED
+	NOT_ATTACKED
+}
+
+enum ShipStatus  {
+	SUNK
+	NOT_SUNK
+}
+
+Game --> GamePlayer: player1
+Game --> GamePlayer: player2
+Game --> GamePlayer: currentPlayer
+Game --> GamePlayer: winner
+Game --> GameStatus: gameStatus
+
+GamePlayer --> "*" GameShip: gameShips
+GamePlayer --> "*" GameGrid: gameBoard
+GamePlayer --> Player: player
+
+GameGrid --> GamePlayer: gamePlayer
+GameGrid --> GameShip: gameShip
+GameGrid --> GridValue : gridValue
+
+GameShip --> "*" GameGrid: gameShipGrids
+GameShip --> Ship: ship
+GameShip --> GamePlayer: gamePlayer
+GameShip --> ShipStatus : shipStatus
+
+Player --> "*" GamePlayer: gamePlayers
+@enduml

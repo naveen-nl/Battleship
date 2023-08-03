@@ -1,0 +1,198 @@
+[
+  {
+    "playerName": "Naveen1",
+    "shipsInfo": [
+      {
+        "shipId": 1,
+        "gameShipLocations": [
+          {
+            "rowIndex": 9,
+            "columnIndex": 0
+          },
+		   {
+            "rowIndex": 9,
+            "columnIndex": 1
+          },
+		   {
+            "rowIndex": 9,
+            "columnIndex": 2
+          },
+		   {
+            "rowIndex": 9,
+            "columnIndex": 3
+          },
+		   {
+            "rowIndex": 9,
+            "columnIndex": 4
+          }
+        ]
+      },
+	  {
+        "shipId": 2,
+        "gameShipLocations": [
+          {
+            "rowIndex": 8,
+            "columnIndex": 5
+          },
+		   {
+            "rowIndex": 8,
+            "columnIndex": 6
+          },
+		   {
+            "rowIndex": 8,
+            "columnIndex": 7
+          },
+		   {
+            "rowIndex": 8,
+            "columnIndex": 8
+          }
+        ]
+      },
+	  {
+        "shipId": 3,
+        "gameShipLocations": [
+          {
+            "rowIndex": 0,
+            "columnIndex": 3
+          },
+		   {
+            "rowIndex": 1,
+            "columnIndex": 3
+          },
+		   {
+            "rowIndex": 2,
+            "columnIndex": 3
+          }
+        ]
+      },
+	  {
+        "shipId": 4,
+        "gameShipLocations": [
+           {
+            "rowIndex": 0,
+            "columnIndex": 5
+          },
+		   {
+            "rowIndex": 1,
+            "columnIndex": 5
+          },
+		   {
+            "rowIndex": 2,
+            "columnIndex": 5
+          }
+        ]
+      },
+	  {
+        "shipId": 5,
+        "gameShipLocations": [
+          {
+            "rowIndex": 6,
+            "columnIndex": 7
+          },
+		   {
+            "rowIndex": 6,
+            "columnIndex": 8
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "playerName": "Naveen2",
+    "shipsInfo": [
+      {
+        "shipId": 1,
+        "gameShipLocations": [
+          {
+            "rowIndex": 9,
+            "columnIndex": 0
+          },
+		   {
+            "rowIndex": 9,
+            "columnIndex": 1
+          },
+		   {
+            "rowIndex": 9,
+            "columnIndex": 2
+          },
+		   {
+            "rowIndex": 9,
+            "columnIndex": 3
+          },
+		   {
+            "rowIndex": 9,
+            "columnIndex": 4
+          }
+        ]
+      },
+	  {
+        "shipId": 2,
+        "gameShipLocations": [
+          {
+            "rowIndex": 8,
+            "columnIndex": 5
+          },
+		   {
+            "rowIndex": 8,
+            "columnIndex": 6
+          },
+		   {
+            "rowIndex": 8,
+            "columnIndex": 7
+          },
+		   {
+            "rowIndex": 8,
+            "columnIndex": 8
+          }
+        ]
+      },
+	  {
+        "shipId": 3,
+        "gameShipLocations": [
+          {
+            "rowIndex": 0,
+            "columnIndex": 3
+          },
+		   {
+            "rowIndex": 1,
+            "columnIndex": 3
+          },
+		   {
+            "rowIndex": 2,
+            "columnIndex": 3
+          }
+        ]
+      },
+	  {
+        "shipId": 4,
+        "gameShipLocations": [
+           {
+            "rowIndex": 0,
+            "columnIndex": 5
+          },
+		   {
+            "rowIndex": 1,
+            "columnIndex": 5
+          },
+		   {
+            "rowIndex": 2,
+            "columnIndex": 5
+          }
+        ]
+      },
+	  {
+        "shipId": 5,
+        "gameShipLocations": [
+          {
+            "rowIndex": 6,
+            "columnIndex": 7
+          },
+		   {
+            "rowIndex": 6,
+            "columnIndex": 8
+          }
+        ]
+      }
+    ]
+  }
+]

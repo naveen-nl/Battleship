@@ -1,0 +1,18 @@
+Winner testing :
+update game_grid set grid_value ='ATTACKED';
+SELECT * FROM GAME_GRID where game_GRID_ID in (4,104);
+update game_grid  set grid_value ='NOT_ATTACKED' where game_GRID_ID in (4,104);
+select * from game_ship;
+update game_ship set ship_status ='SUNK';
+update game_ship set ship_status='NOT_SUNK' where game_ship_id  in (3,8);
+
+
+
+{
+  "gameId": "ffc27ee2-d877-4cd1-878b-1e8e72819289",
+  "currentPlayer": 1,
+  "attackedGrid": {
+    "rowIndex": 0,
+    "columnIndex": 3
+  }
+}

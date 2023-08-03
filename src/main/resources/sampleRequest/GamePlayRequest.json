@@ -1,0 +1,9 @@
+{
+  "gameId": "12420aaa-3336-4a90-8300-5e93e6d7a1bf",
+  "currentPlayer": 1,
+  "attackedGrid": {
+    "rowIndex": 6,
+    "columnIndex": 7,
+    "gridValue": "string"
+  }
+}
